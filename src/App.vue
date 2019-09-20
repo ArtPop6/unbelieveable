@@ -5,7 +5,8 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/> -->
-    <List />
+    <!-- <List /> -->
+    <Echarts />
     <TabBar />
 
   </div>
@@ -14,13 +15,13 @@
 <script>
 import axios from 'axios'
 import TabBar from './components/TabBar'
-import List from './views/List'
+import Echarts from './/components/Echarts'
 
 export default {
   components: {
     // HelloWorld,
     TabBar,
-    List
+    Echarts
   },
   data() {
     return {
